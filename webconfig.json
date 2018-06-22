@@ -2,7 +2,7 @@
     "languageCode": "en-gb",
     "pageNotFound": "/page-404/",
     "routes": {
-        "/home/":  {
+        "/home":  {
             "view": "index.html",
             "_layout": "default",
             "_title": "Acc"},
