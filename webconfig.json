@@ -1,0 +1,19 @@
+{
+    "languageCode": "en-gb",
+    "pageNotFound": "/page-404/",
+    "routes": {
+        "/home/":  {
+            "view": "index.html",
+            "_layout": "default",
+            "_title": "Acc"},
+        "/inscription/": "inscription.html",
+        "/librairy/": "librairie.html",
+        "/profil/": "profil.html",
+        "/plugins/": "plugins.html",
+        "/load-BD/": "chargerBD.html",
+        "/page-404/": {
+            "view": "404.html",
+            "statusCode": 404
+        }
+    }
+}
