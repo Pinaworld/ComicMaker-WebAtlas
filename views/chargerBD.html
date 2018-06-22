@@ -1,18 +1,10 @@
 <html>
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>Charger BD COMIC-MAKER</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <?- include('partials/head.html') ?>
+    <?- include('partials/header.html') ?>
 
 </head>
 <body><!-- Navigation -->
@@ -41,14 +33,16 @@
 	<div class="container" >
 		<h3>Veuillez indiquer le fichier à charger sur notre site afin de le partager à nos utilisateurs :</h2>
 		<br>
-		<div class="container"> 
+		<div class="container">
 		<p>Indiquez un fichier à charger(.jpg .pdf .cm) : </p>
 		<br>
 		<input type="file" id="bd" name="bd"
-          accept=".jpg, .pdf, .cm">		
+          accept=".jpg, .pdf, .cm">
 		<br><br>
 		<button type="submit" class="nav-link js-scroll-trigger">Charger</button>
 		</div>
 	</div>
-</body>	
+  <?- include('partials/footer.html') ?>
+  <?- include('partials/foot.html') ?>
+</body>
 </html>
