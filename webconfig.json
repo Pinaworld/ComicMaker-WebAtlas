@@ -5,12 +5,28 @@
         "/home/":  {
             "view": "index.html",
             "_layout": "default",
-            "_title": "Acc"},
-        "/inscription/": "inscription.html",
-        "/librairy/": "librairie.html",
-        "/profil/": "profil.html",
-        "/plugins/": "plugins.html",
-        "/load-BD/": "chargerBD.html",
+            "_title": "Bienvenue sur CM"
+        },
+        "/inscription/": {
+            "view": "inscription.html",
+            "_title": "Inscription à CM"
+        },
+        "/library/": {
+            "view": "librairie.html",
+            "_title": "Librairie CM"
+        },
+        "/profil/": {
+            "view":"profil.html",
+            "_title": "Profil CM"
+        },
+        "/plugins/": {
+            "view":"plugins.html",
+            "_title":"Plugins CM"
+        },
+        "/load-BD/": {
+            "view":"chargerBD.html",
+            "_title":"Exporter BD CM"
+        },
         "/page-404/": {
             "view": "404.html",
             "statusCode": 404
