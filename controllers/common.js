@@ -1,4 +1,3 @@
-
 exports.setRoutes = function (next) {
 
     var NA = this,
