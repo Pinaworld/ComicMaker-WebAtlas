@@ -24,7 +24,7 @@
             "_title":"Plugins CM"
         },
         "/load-BD/": {
-            "view":"chargerBD.html",
+            "view":"loadBD.html",
             "_title":"Exporter BD CM"
         },
         "/page-404/": {

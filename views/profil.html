@@ -5,13 +5,16 @@
 <body>
   <?- include('partials/header.html') ?>
 	<br><br><br><br>
+
 	<div class="container">
-			<p>Veuilliez vous connecter pour continuer :</p>
-	<form>
+			<h3 class="display-4">Veuillez vous connecter pour continuer :</h3>
+  <br><br>
+  <div class="span4">
+  <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Adresse mail :</label>
+    <label for="exampleInputEmail1">Adresse e-mail :</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@exemple.fr">
-    <small id="emailHelp" class="form-text text-muted">Votre adresse ne sera jamais connue</small>
+    <small id="emailHelp" class="form-text text-muted">Votre adresse ne sera jamais divulguée</small>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Mot de passe :</label>
@@ -19,13 +22,13 @@
   </div>
   <button type="submit" class="btn btn-primary">Valider</button>
 </form>
-
-	<p>Pas encore inscrit ? Cliquez <a href="/inscription/" >ici</a>.</p>
+</div>
+	<p>Pas encore inscrit ? Cliquez <a href="/inscription/" ><mark>sur ce lien</mark></a>.</p>
 	</div>
 
 
        <br><br><br>     <br><br><br>     <br><br><br>     <br><br><br>
-       
+
   <?- include('partials/footer.html') ?>
   <?- include('partials/foot.html') ?>
 </body>
