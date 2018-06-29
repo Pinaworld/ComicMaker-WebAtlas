@@ -2,13 +2,60 @@
 <head>
   <?- include('partials/head.html') ?>
 </head>
-<body><!-- Navigation -->
+<body>
   <?- include('partials/header.html') ?>
 	<br><br><br><br>
 	<div class="container">
-	<h2>Vous retrouverez ici, les créations de nos utilisateurs !</h2>
-	<p>Vous souhaitez charger la vôtre ? Cliquez <a href="/load-BD/" >ici</a>.</p>
+	<h2 class="display-4">Vous pouvez retrouver ici, les créations de nos utilisateurs !</h2>
+	<p>Vous souhaitez charger la vôtre ? Cliquez <a href="/load-BD/" ><mark>sur ce lien</mark></a>.</p>
 	</div>
+  <br><br><br>
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Nom de l'oeuvre</th>
+      <th scope="col">Nom de l'auteur</th>
+      <th scope="col">Date de parution</th>
+      <th scope="col">Liens de téléchargement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Tintin au tibet</td>
+      <td>Hergé</td>
+      <td>1978</td>
+      <td>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-download">Télécharger</span>
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Martine et les 40 voleurs</td>
+      <td>Notombs</td>
+      <td>7891</td>
+      <td>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-download"></span> Télécharger
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Spirou à la ferme</td>
+      <td>Franquin</td>
+      <td>1987</td>
+      <td>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-download"></span> Télécharger
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
   <?- include('partials/footer.html') ?>
   <?- include('partials/foot.html') ?>
 </body>

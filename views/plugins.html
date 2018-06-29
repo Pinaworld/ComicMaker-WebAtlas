@@ -2,13 +2,61 @@
 <head>
   <?- include('partials/head.html') ?>
 </head>
-<body><!-- Navigation -->
+<body>
   <?- include('partials/header.html') ?>
-	<div class="container">
-	<br> <br><br><br>
-	<p>Cette page est en construction car aucun plugin n'est à présent disponible</p>
-	<p>Nous vous remercions pour votre compréhension. </p>
-	</div>
+  <br><br><br><br>
+  <div class="container">
+	    <h2 class="display-4">Vous pouvez retrouver ici, les plugins disponibles :</h2>
+	  </div>
+    <br><br><br>
+    <table class="table table-striped">
+       <thead>
+         <tr>
+           <th>Nom</th>
+           <th>Fonction</th>
+           <th> </th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Anglais</td>
+           <td>Permet de mettre votre application en anglais</td>
+           <td>
+             <a href="pygame.msi"
+             download="englishCM.msi">
+             <button type="button" class="btn btn-default btn-sm">
+             <span class="glyphicon glyphicon-download">Télécharger</span>
+             </a>
+           </td>
+         </tr>
+         <tr>
+           <td>Espagnol</td>
+           <td>Permet de mettre votre application en espagnol</td>
+           <td>
+             <a href="pygame.msi"
+             download="spanishCM.msi">
+             <button type="button" class="btn btn-default btn-sm">
+             <span class="glyphicon glyphicon-download">Télécharger</span>
+             </a>
+           </td>
+         </tr>
+         <tr>
+           <td>Theme Darcula</td>
+           <td>Change la couleur de votre theme</td>
+           <td>
+              <a href="pygame.msi"
+              download="darkthemeCM.msi">
+              <button type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-download">Télécharger</span>
+              </a>
+             </button>
+           </td>
+         </tr>
+       </tbody>
+     </table>
+
+     <br><br><br>     <br><br><br>     <br><br><br>     <br><br><br>
+
   <?- include('partials/footer.html') ?>
   <?- include('partials/foot.html') ?>
 </body>
