@@ -9,7 +9,8 @@
         },
         "/inscription/": {
             "view": "inscription.html",
-            "_title": "Inscription à CM"
+            "_title": "Inscription à CM",
+            "variation": "inscription.json"
         },
         "/library/": {
             "view": "librairie.html",
